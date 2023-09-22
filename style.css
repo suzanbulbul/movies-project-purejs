@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+}
+
+img{
+    width: 100%;
+}
+
+.container{
+    padding: 20px;
+
+}
+.movies-body{
+    margin-top: 63px;
+}
+
+/* Header */
+header{
+    position: fixed; /* Header'ı sabitleme */
+    top: 0; /* Üst kenara yapıştır */
+    left: 0; /* Sol kenara yapıştır (isteğe bağlı) */
+    right: 0; /* Sağ kenara yapıştır (isteğe bağlı) */
+    background-color: white; /* Header arkaplan rengi (isteğe bağlı) */
+    z-index: 1000;
+    margin: 0 10%;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+/* Card */
+.card{
+    border: none;
+}
+.card-body{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #f1f1f1;
+    margin: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-img-top{
+    border-radius: 20px;
+    object-fit: cover;
+    max-width: 100%;
+    height: 400px;
+    margin-bottom: 30px;
+}
+.card-title{
+    margin-bottom: 20px;
+}
+
+/* Button */
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.add-cart{
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+}
+
+.cart-item-count{
+    color: white;
+    background-color: green;
+    border-radius: 20px;
+    font-size: 3px;
+    padding: 0 5px;
+
+    position: absolute;
+    right: -8px;
+}
