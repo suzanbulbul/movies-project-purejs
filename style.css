@@ -68,12 +68,11 @@ header{
 }
 
 .cart-item-count{
-    height: 18px;
     color: white;
     background-color: green;
     border-radius: 20px;
-    font-size: 3px;
-    padding: 0 6px;
+    font-size: 12px;    
+    padding: 0 5px;
 
     position: absolute;
     right: -8px;
